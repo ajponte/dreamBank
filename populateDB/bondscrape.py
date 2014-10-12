@@ -11,6 +11,7 @@ import unidecode
 from unidecode import unidecode
 import re
 import json
+import pprint
 
 
 #yahoo finance bond rates for treasury, municipal, and corporate bonds
@@ -42,9 +43,9 @@ def getBondData():
                         dictforbondname[q]=[str(y.text)]
             dictforbonds[chalk]=dictforbondname
             dictforbondname={}
-    return dictforbonds
+    return json.dumps(dictforbonds)
 
 if __name__ == "__main__":
     bondData = getBondData()
-    print bondData
+    pprint.pprint(bondData)
         
