@@ -1,0 +1,11 @@
+_DS_Store
+_DS_Store?
+._*
+.Trashes
+.zip
+.pyc
+
+#Files needed locally, but not neccessary for global heroku instance
+README.md
+heroku_rsa
+.pub
