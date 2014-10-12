@@ -1,0 +1,39 @@
+<!-- Surevey to log information about 
+	 a user's potential risk profile.
+	 @author Alan Ponte, Alex Shev
+-->
+<ion-view title = Survey>
+
+	<ion-content has-header="true" padding="true">
+	<div class="list list-insert" style="margin-top: 10px">
+		<form role = "form" novalidate class="simple-form">
+			<label for = "yearlyIncome">Yearly Income</label>
+				<input type="text" class="form-control" />
+			<label for = "monthlyExpenses">Estimated Monthly Expenses</label>
+				<input type="text" class="form-control" />
+
+			<label class="control-label" for="riskFactor">Do you know your risk factor?</label>
+			<div class = "controls" style = "width:250px">
+				<select data-ng-model="riskFactor" id="riskFactor" class="form-control" 
+						paceholder="Risk Factor">
+					<option value="risk_adverse">
+						Risk Adverse
+					</option>
+					<option value="risk_nuetral">
+						Risk Nuetrul
+					</option>
+					<option value="risk_loving">
+						Risk Loving
+					</option>
+				</select>
+			</div>
+			<br/> <br/>
+			<div class = "form-group">
+				<input type="submit" class = "btn btn-primary">
+			</div>
+
+		</form>
+	</div>
+	</ion-content>
+
+</ion-view>

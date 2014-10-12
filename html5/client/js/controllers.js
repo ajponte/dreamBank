@@ -149,7 +149,9 @@ angular.module('starter.controllers', [])
 
   $scope.register = function() {
     RegistrationService.register($scope.user).then(function() {
-      $location.path("/");
+      //$location.path("/");
+      /* Route to the survey page after registering. */
+      $location.path("/survey");
     })
   }
 })
@@ -167,6 +169,10 @@ angular.module('starter.controllers', [])
       $location.path("/");
     });
   }
+
+})
+
+.controller('TemplateCtrl', function($scope, $location) {
 
 })
 
