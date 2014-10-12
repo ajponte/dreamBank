@@ -1,5 +1,7 @@
+<<<<<<< HEAD
 .project/
 psql_data/
+=======
 _DS_Store
 _DS_Store?
 ._*
@@ -11,3 +13,4 @@ _DS_Store?
 README.md
 heroku_rsa
 .pub
+>>>>>>> f8765f43aee20f3ee0ee3671961034d39da5b7b7
