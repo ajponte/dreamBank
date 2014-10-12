@@ -1,8 +1,13 @@
 .project/
-
-heroku_rsa
-heroku_rsa.pub
-
+psql_data/
+_DS_Store
+_DS_Store?
+._*
+.Trashes
+.zip
 .pyc
 
-
+#Files needed locally, but not neccessary for global heroku instance
+README.md
+heroku_rsa
+.pub
