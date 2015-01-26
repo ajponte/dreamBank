@@ -8,6 +8,6 @@ public class Defaults {
 	
 	public static final String API_KEY = "eIEMjSLHv5dJzWPvgZyy0dfmL58KQhvV";
 	public static final String MONGO_UNAME = "alanjponte";
-	public static final String MONGO_PASSWD = "R@ganros89";
+	public static final String MONGO_PASSWD = "*******";
 
 }
